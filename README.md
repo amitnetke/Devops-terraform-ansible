@@ -11,17 +11,29 @@ sudo -i
 
 
 [root@ip-172-31-95-236 ~]# history
+
     1  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
-    2  yum install wget -y
-    3  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
-    4  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
-    5  yum install fontconfig java-11-openjdk
-    6  yum install jenkins
-    7  clear
-    8  systemctl status jenkins
-    9  systemctl start jenkins
-   10  systemctl status jenkins
-   11  cat /var/lib/jenkins/secrets/initialAdminPassword
+
+2  yum install wget -y
+
+3  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+
+4  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+
+5  yum install fontconfig java-11-openjdk
+
+6  yum install jenkins
+
+7  clear
+
+8  systemctl status jenkins
+
+9  systemctl start jenkins
+
+10  systemctl status jenkins
+
+11  cat /var/lib/jenkins/secrets/initialAdminPassword
+
 
 -----------------------------------------------
 change jenkins permissions to perform 
